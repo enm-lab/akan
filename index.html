@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Name Generator</title>
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-</head>
-<body>
-    <div class="container">
-        <div class="jumbotron">
-            <h1>Akan Name Generator</h1>
-            <p>Welcome to Ghana. Akan names are very popular in Ghana and through West Africa. This is because Ghanaian parents often name their children after the day and the order they are born. Notable figures with Akan names include the first president of Ghana; Kwame Nkrumah and the late and former UN Secretary General; Kofi Annan.</p>
-            <p>Find out your Akan name here</p>
-        </div>
-        <div><form>  
-               <p>Date of birth</p> <input type="text" id="dob" maxlength="2" placeholder="Date of Birth"> 
-               <p>Month</p><input type="text" id="monthname" maxlength="2" size="30" placeholder="Input digits e.g. January=1, April=4 etc">
-               <p>Year of Birth</p> <input type="text" id="yob" maxlength="4" placeholder="Year of Birth">
-               <p>Gender</p>  <select name="gender" id="gender">
-                                <option placeholder="Choose"></option> 
-                                <option>Male</option>
-                                <option>Female</option>
-                              </select>
-
-             </form>
-        </div>
-
-    </div>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
     
-</body>
+  </head>
+  <body>
+    <div class="container" id="main">
+      <div class="jumbotron">
+        <h1>Akan Name Generator</h1>
+        <p>
+          Welcome to Ghana. Akan names are very popular in Ghana and through
+          West Africa. This is because Ghanaian parents often name their
+          children after the day and the order they are born. Notable figures
+          with Akan names include the first president of Ghana; Kwame Nkrumah
+          and the late and former UN Secretary General; Kofi Annan.
+        </p>
+        <p>Find out your Akan name here</p>
+      </div>
+      <div>
+        <form> 
+          <p>Year of Birth</p> <input type="text"id="year" maxlength="4" placeholder="Enter year (last 2 digits)" />
+          <p>Month</p> <input type="text" id="month" maxlength="2" size="30" placeholder="Enter month 1-12" max="12" min="1"/>
+          <p>Date of birth</p> <input type="text" id="date"maxlength="2" placeholder="Enter date 1-31" max="31" min="1"/>
+          <p>Gender</p> <select name="gender" id="gender">
+                          <option placeholder="Choose"></option>
+                          <option>male</option>
+                          <option>female</option>
+                        </select>
+                        <button type="button" name="button" class="btn btn-dark" onclick="checkTheDay(); verify();">Calculate Day</button></a>
+        </form>
+      </div>
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
