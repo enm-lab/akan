@@ -16,3 +16,10 @@ var set = function(){
       else if(yob=== NaN || yob<1990 || yob>2019){
          document.getElementById("alert2").innerHTML = ("Invalid year please try Again");
       }
+      
+      var maleName = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi", "Kwame"];
+      ​
+       var femaleName =["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+      ​
+       var daysOfTheWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+      ​
