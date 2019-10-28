@@ -52,3 +52,39 @@ var set = function(){
       ​
        }
       ​
+      if(weekDay===0 &&gender === "female"){
+         return document.getElementById("alert").innerHTML = ("Your Akan name is : ")+ femaleName[weekDay]+("  .You were born on a : "+ daysOfTheWeek[weekDay]);
+      ​
+       }
+       else if(weekDay=== 1 &&gender === "female"){
+         return document.getElementById("alert").innerHTML = ("Your Akan name is : ")+ femaleName[weekDay]+("  .You were born on a : "+ daysOfTheWeek[weekDay]);
+      ​
+       }
+       else if(weekDay===2 && gender === "female"){
+         return document.getElementById("alert").innerHTML = ("Your Akan name is : ")+ femaleName[weekDay]+("  .You were born on a : "+ daysOfTheWeek[weekDay]);
+      ​
+       }
+       else if(weekDay===3 &&gender === "female"){
+         return document.getElementById("alert").innerHTML = ("Your Akan name is : ")+ femaleName[weekDay]+("  .You were born on a : "+ daysOfTheWeek[weekDay]);
+      ​
+      ​
+       }
+       else if(weekDay===4 &&gender === "female"){
+         return document.getElementById("alert").innerHTML = ("Your Akan name is : ")+ femaleName[weekDay]+("  .You were born on a : "+ daysOfTheWeek[weekDay]);
+      ​
+      ​
+       }
+       else if(weekDay===5 &&gender === "female"){
+         return document.getElementById("alert").innerHTML = ("Your Akan name is : ")+ femaleName[weekDay]+("  .You were born on a : "+ daysOfTheWeek[weekDay]);
+      ​
+      ​
+       }
+       else if(weekDay===6 &&gender === "female"){
+         return document.getElementById("alert").innerHTML = ("Your Akan name is : ")+ femaleName[weekDay]+("  .You were born on a : "+ daysOfTheWeek[weekDay]);
+      ​
+      ​
+       }
+       
+           
+       }
+      ​
