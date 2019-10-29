@@ -8,5 +8,11 @@ body {
   font-weight: bold;
   float: right;
   margin-top: 30%;
+  background-color: antiquewhite;
 
+}
+.jumbotron {
+  background-color: burlywood;
+  height: 300;
+  width: 500;
 }
