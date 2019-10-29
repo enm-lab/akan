@@ -1,5 +1,12 @@
 
 body {
-  background-image: url("https://files.slack.com/files-pri/T077KKCG6-FPV1SF17E/image_from_ios.jpg");
+  background-image:url(https://bit.ly/2WkH5mc) ;
   background-repeat: repeat;
+  margin-right: 10%;
+}
+#akanForm{
+  font-weight: bold;
+  float: right;
+  margin-top: 30%;
+
 }
