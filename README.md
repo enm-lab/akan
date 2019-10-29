@@ -1,8 +1,8 @@
 # {Akan Name Generator}
-#### {The Akan Name Generator is an application that generates peopl's names based off the Akan names of the Ghanaian culture}, {2019}
+#### {The Akan Name Generator is an application that generates people's names based off the Akan names of the Ghanaian culture}, {2019}
 #### By **{Emma Mwanza}**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+{The Akan naming system is the culture of naming children based on the days they were born. Any person can obtain an Akan name based on their birthday because the Akan names are fixed. This application will auto-generate names for people when their enter birthday details. }
 ## Setup/Installation Requirements
 * This is a great place
 * to list setup instructions
